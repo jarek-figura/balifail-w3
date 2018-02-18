@@ -4,4 +4,6 @@ Baifail Whippets - german website created in w3schools w3.css framework.
 It is a preview of possibilities of the w3.css framework.
 No hard coding necessary, just a few lines of js.
 
+Originally created in Brackets editor, now imported to WebStorm IDE.
+
 If accepted it will serve as a template for the whole site.
