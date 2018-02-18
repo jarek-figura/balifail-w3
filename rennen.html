@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="de">
+<head>
+	<meta charset="utf-8"/>
+	<title>Balifail Whippets</title>
+	<meta name="author" content="Jarek Figura"/>
+	<meta name="keywords" content="balifail, whippet, whippets, fly over, gallery, pedigree, welpen, windhund, windhunde, hund, hunde, schau, meister, meisterschaft, rennen, zucht, züchter, news, ch., champion, champions, dog, show, shows, sighthound, home-bred, home-breeding, breeder, breeding, balifail, Anook, Ayron, Aretino, Anemona, Aston, Avantgarde, Abyss, Barolo, Batida, Balbina, Corazon, Caro, Cameo, Carlos, Calyx, Cliff, Deimos, Dylan, Domino, Duncan, Devi"/>
+	<meta name="description" content="Willkommen bei Balifail whippets, Fly over of Champ's Runners"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css"/>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/balifail.css"/>
+	<link rel="icon" href="img/favicon.png" type="image/x-icon"/>
+	<script src="js/balifail.js"></script>
+</head>
+
+<body class="w3-theme-l5">
+
+<header class="w3-container">
+	<div class="w3-left w3-hide-small"><img src="img/balifail.png" alt="Drei hunde"/></div>
+	<div class="w3-xlarge w3-text-theme w3-hide-small"><p class="w3-hide-small"></p>BALIFAIL WHIPPETS</div>
+</header>
+
+<!-- --------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------- N A V I G A T I O N -------------------------------------- -->
+<!-- --------------------------------------- B E G I N ------------------------------------------- -->
+<nav class="w3-container w3-text-theme w3-top">
+	<ul class="w3-navbar w3-theme-l2 w3-left-align">
+		<li class="w3-hide-medium w3-hide-large w3-theme-d3 w3-opennav w3-right"><a class="w3-hover-theme" href="javascript:void(0);" onClick="hideSmall()">☰</a></li>
+		<li class="w3-hide-small"><a class="w3-theme-dark w3-hover-theme" href="index.html"><i class="fa fa-home w3-large"></i> Home</a></li>
+		<li class="w3-hide-medium w3-hide-large"><a class="w3-theme-dark w3-hover-theme" href="index.html"><i class="fa fa-home w3-large"></i> BALIFAIL WHIPPETS</a></li>
+		<li class="w3-hide-small"><a class="w3-hover-theme w3-text-theme" href="news.html">News</a></li>
+		<li class="w3-hide-small w3-dropdown-hover w3-hover-theme">
+			<a onClick="dropMenu1()" class="w3-theme-l4 w3-hover-theme w3-text-theme" href="#">Fly over <i class="fa fa-caret-down"></i></a>
+			<div id="drop1" class="w3-dropdown-content w3-theme-l3 w3-card-4 w3-animate-opacity jf-z1">
+				<a class="w3-hover-theme w3-text-theme" href="allgemein.html">Allgemein</a>
+				<a class="w3-hover-theme w3-text-theme" href="pedigree.html">Pedigree</a>
+				<a class="w3-hover-theme w3-text-theme w3-theme-l4" href="rennen.html">Rennen</a>
+				<a class="w3-hover-theme w3-text-theme" href="show.html">Show</a>
+			</div>
+		</li>
+		<li class="w3-hide-small"><a class="w3-hover-theme w3-text-theme" href="http://flickr.com/photos/balifail/sets/" target="_blank">Gallery</a></li>
+		<li class="w3-hide-small w3-dropdown-hover w3-hover-theme">
+			<a onClick="dropMenu2()" class="w3-hover-theme w3-text-theme" href="#">Würfe <i class="fa fa-caret-down"></i></a>
+			<div id="drop2" class="w3-dropdown-content w3-theme-l3 w3-card-4 w3-animate-opacity jf-z1">
+				<a class="w3-hover-theme w3-text-theme" href="awurf.html">A-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="bwurf.html">B-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="cwurf.html">C-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="dwurf.html">D-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="ewurf.html">E-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="fwurf.html">F-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="gwurf.html">G-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="hwurf.html">H-Wurf</a>
+			</div>
+		</li>
+		<li class="w3-hide-small"><a class="w3-hover-theme w3-text-theme" href="http://balifailwhippets.wordpress.com" target="_blank">Archiv</a></li>
+		<li class="w3-hide-small"><a class="w3-hover-theme w3-text-theme" href="links.html">Links</a></li>
+	</ul>
+	<div id="hide" class="w3-hide w3-hide-large w3-hide-medium w3-animate-opacity">
+		<ul class="w3-navbar w3-left-align w3-medium w3-theme-l2">
+			<li><a class="w3-hover-theme w3-text-theme" href="news.html">News</a></li>
+			<li class="w3-dropdown-click w3-hover-theme">
+				<a onClick="dropMenu3()" class="w3-theme-l4 w3-hover-theme w3-text-theme" href="#">Fly over <i class="fa fa-caret-down"></i></a>
+				<div id="drop3" class="w3-dropdown-content w3-theme-l3 w3-card-4 w3-animate-opacity">
+					<a class="w3-hover-theme w3-text-theme" href="allgemein.html">Allgemein</a>
+					<a class="w3-hover-theme w3-text-theme" href="pedigree.html">Pedigree</a>
+					<a class="w3-hover-theme w3-text-theme w3-theme-l4" href="rennen.html">Rennen</a>
+					<a class="w3-hover-theme w3-text-theme" href="show.html">Show</a>
+				</div>
+			</li>
+			<li><a class="w3-hover-theme w3-text-theme" href="http://flickr.com/photos/balifail/sets/" target="_blank">Gallery</a></li>
+			<li class="w3-dropdown-click w3-hover-theme">
+				<a onClick="dropMenu4()" class="w3-hover-theme w3-text-theme" href="#">Würfe <i class="fa fa-caret-down"></i></a>
+				<div id="drop4" class="w3-dropdown-content w3-theme-l3 w3-card-4 w3-animate-opacity">
+					<a class="w3-hover-theme w3-text-theme" href="awurf.html">A-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="bwurf.html">B-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="cwurf.html">C-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="dwurf.html">D-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="ewurf.html">E-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="fwurf.html">F-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="gwurf.html">G-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="hwurf.html">H-Wurf</a>
+				</div>
+			</li>
+			<li><a class="w3-hover-theme w3-text-theme" href="http://balifailwhippets.wordpress.com" target="_blank">Archiv</a></li>
+			<li><a class="w3-hover-theme w3-text-theme" href="links.html">Links</a></li>
+		</ul>
+	</div>
+	<!-- ------------------------------ C U R R E N T  P A T H ----------------------------------- -->
+	<div class="w3-container w3-text-theme w3-theme-l4 w3-border-bottom jf-theme-border w3-small w3-padding-8 jf-round-bottom-8">
+		<div class="w3-left">
+			<a class="w3-hover-theme" href="index.html">Home</a> > Fly over > <a class="w3-hover-theme" href="rennen.html">Rennen</a>
+		</div>
+	</div>
+</nav>
+<!-- ----------------------------------------- E N D --------------------------------------------- -->
+<!-- ---------------------------------- N A V I G A T I O N -------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------- C O N T E N T ----------------------------------------- -->
+<!-- --------------------------------------- B E G I N ------------------------------------------- -->
+<article class="w3-container w3-center w3-padding-16">
+    <img src="img/3069074648_e437e80d0f_o.jpg" style="max-width:423px;" class="w3-round-large"/>
+    <p></p>
+    <div class="w3-responsive">
+        <table class="w3-table w3-striped">
+            <thead>
+                <tr class="w3-theme-dark">
+                    <th>Datum</th>
+                    <th>Rennverein</th>
+                    <th>1.VL</th>
+                    <th>2.VL</th>
+                    <th>Finale</th>
+                    <th>Platz</th>
+                    <th>Starter</th>
+                </tr>
+            </thead>
+            <tr>
+                <td colspan="7" class="w3-center w3-theme">2005</td>
+            </tr>
+            <tr>
+                <td>24.04</td>
+                <td>CCLA/Untersiebenbrunn</td>
+                <td>24.85</td>
+                <td></td>
+                <td>25.15</td>
+                <td>3.</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>08.05</td>
+                <td>CACIL/Krenglbach</td>
+                <td>22.22</td>
+                <td>21.99</td>
+                <td>22.09</td>
+                <td>3.</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>22.05</td>
+                <td>CCLA/Marchegg</td>
+                <td>23.39</td>
+                <td></td>
+                <td>23.27</td>
+                <td>2.</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>22.05</td>
+                <td>WM/Mlada&nbsp;Boleslav&nbsp;(CZ)</td>
+                <td>23.99</td>
+                <td>23.81</td>
+                <td></td>
+                <td>26.</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <td>26.06</td>
+                <td>CACIL/Rabapatona (H)</td>
+                <td>25.09</td>
+                <td>24.76</td>
+                <td>25.07</td>
+                <td>4.</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>02.10</td>
+                <td>Rabapatona (H)</td>
+                <td>24.73</td>
+                <td></td>
+                <td>25.22</td>
+                <td>2.</td>
+                <td>5</td>
+            </tr>
+            <tr class="w3-border-bottom w3-theme-border">
+                <td>16.10</td>
+                <td>CCLA Marchagg</td>
+                <td>23.64</td>
+                <td>23.51</td>
+                <td>24.06</td>
+                <td>3.</td>
+                <td>8</td>
+            </tr>
+        </table>
+    </div>
+    <p></p>
+    <div class="w3-responsive">
+        <table class="w3-table w3-striped">
+            <thead>
+                <tr class="w3-theme-dark">
+                    <th>Datum</th>
+                    <th>Rennverein</th>
+                    <th>1.VL</th>
+                    <th>2.VL</th>
+                    <th>Finale</th>
+                    <th>Platz</th>
+                    <th>Starter</th>
+                </tr>
+            </thead>
+            <tr>
+                <td colspan="7" class="w3-center w3-theme-d1">2004</td>
+            </tr>
+            <tr>
+                <td>27.06</td>
+                <td>CACIL/Krenglbach</td>
+                <td>21.84</td>
+                <td>21.80</td>
+                <td>21.58</td>
+                <td>2.</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>05.09</td>
+                <td>EM in Freiburg (D)</td>
+                <td>23.91</td>
+                <td>23.64</td>
+                <td></td>
+                <td></td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td>19.09</td>
+                <td>CACIL/Krenglbach</td>
+                <td>22.10</td>
+                <td>21.83</td>
+                <td></td>
+                <td></td>
+                <td>13</td>
+            </tr>
+            <tr class="w3-border-bottom w3-theme-border">
+                <td>26.09</td>
+                <td>CACIL/Rabapatona&nbsp;(H)</td>
+                <td>24.19</td>
+                <td></td>
+                <td>24.45</td>
+                <td>1.</td>
+                <td>6</td>
+            </tr>
+        </table>
+    </div>
+    <p></p>
+    <div class="w3-responsive">
+        <table class="w3-table w3-striped">
+            <thead>
+                <tr class="w3-theme-dark">
+                    <th>Datum</th>
+                    <th>Rennverein</th>
+                    <th>1.VL</th>
+                    <th>2.VL</th>
+                    <th>Finale</th>
+                    <th>Platz</th>
+                    <th>Starter</th>
+                </tr>
+            </thead>
+            <tr>
+                <td colspan="7" class="w3-center w3-theme">2003</td>
+            </tr>
+            <tr>
+                <td colspan="7" onclick="document.getElementById('id01').style.display='block'" class="w3-center w3-theme-l4 w3-navbar"><a class="w3-hover-theme jf-theme-a">ÖKWZR-Rennchampion 2003 / best austrian racing dog of 2003</a></td>
+            </tr>
+            <tr>
+                <td>13.04</td>
+                <td>Untersiebenbrunn/CACIL</td>
+                <td>24.25</td>
+                <td>24.32</td>
+                <td>24.26</td>
+                <td>1.</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>27.04</td>
+                <td>Marchegg/CCLA</td>
+                <td>22.94</td>
+                <td>23.02</td>
+                <td>22.94</td>
+                <td>1.</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>04.05</td>
+                <td>Mammendorf/CACIL</td>
+                <td><strong>23.90</strong></td>
+                <td></td>
+                <td>24.04</td>
+                <td>1.</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>11.05</td>
+                <td>Krenglbach/CACIL</td>
+                <td>21.58</td>
+                <td>21.73</td>
+                <td>21.54</td>
+                <td>1.</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>22.06</td>
+                <td>Untersiebenbrunn/CACIL</td>
+                <td>24.60</td>
+                <td>24.49</td>
+                <td>24.88</td>
+                <td>3.</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>05.07</td>
+                <td>Krenglbach/CACIL</td>
+                <td>21.59</td>
+                <td><strong>21.38</strong></td>
+                <td>21.60</td>
+                <td>1.</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>21.09</td>
+                <td>Krenglbach/CACIL</td>
+                <td>22.03</td>
+                <td>21.87</td>
+                <td>22.23</td>
+                <td>2.</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>12.10</td>
+                <td>Marchegg/CCLA</td>
+                <td>23.25</td>
+                <td></td>
+                <td>23.20</td>
+                <td>2.</td>
+                <td>5</td>
+            </tr>
+            <tr class="w3-border-bottom w3-theme-border">
+                <td>26.10</td>
+                <td>Untersiebenbrunn/CACIL</td>
+                <td>24.48</td>
+                <td></td>
+                <td>24.49</td>
+                <td>1.</td>
+                <td>5</td>
+            </tr>
+        </table>
+    </div>
+	<div id="id01" class="w3-modal" onclick="document.getElementById('id01').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+			</header>
+			<img src="img/2003.jpg" class="jf-round-bottom-8"/>
+		</div>
+	</div>
+    <p></p>
+    <div class="w3-responsive">
+        <table class="w3-table w3-striped">
+            <thead>
+                <tr class="w3-theme-dark">
+                    <th>Datum</th>
+                    <th>Rennverein</th>
+                    <th>1.VL</th>
+                    <th>2.VL</th>
+                    <th>Finale</th>
+                    <th>Platz</th>
+                    <th>Starter</th>
+                </tr>
+            </thead>
+            <tr>
+                <td colspan="7" class="w3-center w3-theme">2002</td>
+            </tr>
+            <tr>
+				<td colspan="7" onclick="document.getElementById('id02').style.display='block'" class="w3-center w3-theme-l4 w3-navbar"><a class="w3-hover-theme jf-theme-a">ÖKWZR-Rennchampion 2002 / best austrian racing dog of 2002</a></td>
+            </tr>
+            <tr>
+                <td>12.05</td>
+                <td>Krenglbach/CACIL</td>
+                <td>22.40</td>
+                <td>22.14</td>
+                <td>22.11</td>
+                <td>5.</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>16.06</td>
+                <td>Krenglbach/CACIL</td>
+                <td>21.69</td>
+                <td>21.78</td>
+                <td>21.68</td>
+                <td>2.</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>30.05</td>
+                <td>Marchegg/CCLA</td>
+                <td>22.93</td>
+                <td>22.95</td>
+                <td>23.17</td>
+                <td>3.</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>27.07</td>
+                <td>Rabapatona (Gras)</td>
+                <td><strong>24.05</strong></td>
+                <td>24.19</td>
+                <td>24.60</td>
+                <td>1.</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>04.08</td>
+                <td>Marchegg/Solo</td>
+                <td>22.95</td>
+                <td><strong>22.67</strong></td>
+                <td></td>
+                <td>1.</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>08.09</td>
+                <td>Rabapatona/EM</td>
+                <td>24.10</td>
+                <td>24.13</td>
+                <td></td>
+                <td>15.</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <td>14.09</td>
+                <td>Inzing/CCLA</td>
+                <td>22.66</td>
+                <td></td>
+                <td><strong>22.20</strong></td>
+                <td>1.</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>22.09</td>
+                <td>Krenglbach/CACIL</td>
+                <td>21.58</td>
+                <td></td>
+                <td>21.54</td>
+                <td>1.</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>29.09</td>
+                <td>Untersiebenbrunn/CACIL</td>
+                <td><strong>24.14</strong></td>
+                <td></td>
+                <td>24.19</td>
+                <td>1.</td>
+                <td>6</td>
+            </tr>
+            <tr class="w3-border-bottom w3-theme-border">
+                <td>13.10</td>
+                <td>Marchegg/CCLA</td>
+                <td>23.17</td>
+                <td></td>
+                <td>23.07</td>
+                <td>1.</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+	<div id="id02" class="w3-modal" onclick="document.getElementById('id02').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:346px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span onclick="document.getElementById('id02').style.display='none'" class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+			</header>
+			<img src="img/2002.jpg" class="jf-round-bottom-8"/>
+		</div>
+	</div>
+</article>
+<!-- ----------------------------------------- E N D --------------------------------------------- -->
+<!-- ------------------------------------- C O N T E N T ----------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------- F O O T E R ------------------------------------------ -->
+<!-- --------------------------------------- B E G I N ------------------------------------------- -->
+<footer class="w3-container">
+    <div class="w3-container w3-navbar w3-theme-dark w3-small w3-padding-8 jf-round-top-8">
+        <div class="w3-left">
+            <a class="w3-hover-theme" href="index.html">Home</a> > Fly over > <a class="w3-hover-theme" href="rennen.html">Rennen</a>
+        </div>
+        <div class="w3-right">
+            <a class="w3-hover-theme" href="mailto:balifail@gmx.com"><i class="fa fa-envelope w3-larg"></i> Marta Balinov</a>
+        </div>
+    </div>
+</footer>
+<!-- ----------------------------------------- E N D --------------------------------------------- -->
+<!-- -------------------------------------- F O O T E R ------------------------------------------ -->
+
+</body>
+</html>

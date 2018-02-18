@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="de">
+<head>
+	<meta charset="utf-8"/>
+	<title>Balifail Whippets</title>
+	<meta name="author" content="Jarek Figura"/>
+	<meta name="keywords" content="balifail, whippet, whippets, fly over, gallery, pedigree, welpen, windhund, windhunde, hund, hunde, schau, meister, meisterschaft, rennen, zucht, züchter, news, ch., champion, champions, dog, show, shows, sighthound, home-bred, home-breeding, breeder, breeding, balifail, Anook, Ayron, Aretino, Anemona, Aston, Avantgarde, Abyss, Barolo, Batida, Balbina, Corazon, Caro, Cameo, Carlos, Calyx, Cliff, Deimos, Dylan, Domino, Duncan, Devi"/>
+	<meta name="description" content="Willkommen bei Balifail whippets, Fly over of Champ's Runners"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css"/>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/balifail.css"/>
+	<link rel="icon" href="img/favicon.png" type="image/x-icon"/>
+	<script src="js/balifail.js"></script>
+	<script src="js/imageMapResizer.min.js"></script>
+</head>
+
+<body class="w3-theme-l5">
+
+<header class="w3-container">
+	<div class="w3-left w3-hide-small"><img src="img/balifail.png" alt="Drei hunde"/></div>
+	<div class="w3-xlarge w3-text-theme w3-hide-small"><p class="w3-hide-small"></p>BALIFAIL WHIPPETS</div>
+</header>
+
+<!-- --------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------- N A V I G A T I O N -------------------------------------- -->
+<!-- --------------------------------------- B E G I N ------------------------------------------- -->
+<nav class="w3-container w3-text-theme w3-top">
+	<ul class="w3-navbar w3-theme-l2 w3-left-align">
+		<li class="w3-hide-medium w3-hide-large w3-theme-d3 w3-opennav w3-right"><a class="w3-hover-theme" href="javascript:void(0);" onClick="hideSmall()">☰</a></li>
+		<li class="w3-hide-small"><a class="w3-theme-dark w3-hover-theme" href="index.html"><i class="fa fa-home w3-large"></i> Home</a></li>
+		<li class="w3-hide-medium w3-hide-large"><a class="w3-theme-dark w3-hover-theme" href="index.html"><i class="fa fa-home w3-large"></i> BALIFAIL WHIPPETS</a></li>
+		<li class="w3-hide-small"><a class="w3-hover-theme w3-text-theme" href="news.html">News</a></li>
+		<li class="w3-hide-small w3-dropdown-hover w3-hover-theme">
+			<a onClick="dropMenu1()" class="w3-theme-l4 w3-hover-theme w3-text-theme" href="#">Fly over <i class="fa fa-caret-down"></i></a>
+			<div id="drop1" class="w3-dropdown-content w3-theme-l3 w3-card-4 w3-animate-opacity jf-z1">
+				<a class="w3-hover-theme w3-text-theme" href="allgemein.html">Allgemein</a>
+				<a class="w3-hover-theme w3-text-theme w3-theme-l4" href="pedigree.html">Pedigree</a>
+				<a class="w3-hover-theme w3-text-theme" href="rennen.html">Rennen</a>
+				<a class="w3-hover-theme w3-text-theme" href="show.html">Show</a>
+			</div>
+		</li>
+		<li class="w3-hide-small"><a class="w3-hover-theme w3-text-theme" href="http://flickr.com/photos/balifail/sets/" target="_blank">Gallery</a></li>
+		<li class="w3-hide-small w3-dropdown-hover w3-hover-theme">
+			<a onClick="dropMenu2()" class="w3-hover-theme w3-text-theme" href="#">Würfe <i class="fa fa-caret-down"></i></a>
+			<div id="drop2" class="w3-dropdown-content w3-theme-l3 w3-card-4 w3-animate-opacity jf-z1">
+				<a class="w3-hover-theme w3-text-theme" href="awurf.html">A-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="bwurf.html">B-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="cwurf.html">C-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="dwurf.html">D-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="ewurf.html">E-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="fwurf.html">F-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="gwurf.html">G-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="hwurf.html">H-Wurf</a>
+			</div>
+		</li>
+		<li class="w3-hide-small"><a class="w3-hover-theme w3-text-theme" href="http://balifailwhippets.wordpress.com" target="_blank">Archiv</a></li>
+		<li class="w3-hide-small"><a class="w3-hover-theme w3-text-theme" href="links.html">Links</a></li>
+	</ul>
+	<div id="hide" class="w3-hide w3-hide-large w3-hide-medium w3-animate-opacity">
+		<ul class="w3-navbar w3-left-align w3-medium w3-theme-l2">
+			<li><a class="w3-hover-theme w3-text-theme" href="news.html">News</a></li>
+			<li class="w3-dropdown-click w3-hover-theme">
+				<a onClick="dropMenu3()" class="w3-theme-l4 w3-hover-theme w3-text-theme" href="#">Fly over <i class="fa fa-caret-down"></i></a>
+				<div id="drop3" class="w3-dropdown-content w3-theme-l3 w3-card-4 w3-animate-opacity">
+					<a class="w3-hover-theme w3-text-theme" href="allgemein.html">Allgemein</a>
+					<a class="w3-hover-theme w3-text-theme w3-theme-l4" href="pedigree.html">Pedigree</a>
+					<a class="w3-hover-theme w3-text-theme" href="rennen.html">Rennen</a>
+					<a class="w3-hover-theme w3-text-theme" href="show.html">Show</a>
+				</div>
+			</li>
+			<li><a class="w3-hover-theme w3-text-theme" href="http://flickr.com/photos/balifail/sets/" target="_blank">Gallery</a></li>
+			<li class="w3-dropdown-click w3-hover-theme">
+				<a onClick="dropMenu4()" class="w3-hover-theme w3-text-theme" href="#">Würfe <i class="fa fa-caret-down"></i></a>
+				<div id="drop4" class="w3-dropdown-content w3-theme-l3 w3-card-4 w3-animate-opacity">
+					<a class="w3-hover-theme w3-text-theme" href="awurf.html">A-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="bwurf.html">B-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="cwurf.html">C-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="dwurf.html">D-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="ewurf.html">E-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="fwurf.html">F-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="gwurf.html">G-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="hwurf.html">H-Wurf</a>
+				</div>
+			</li>
+			<li><a class="w3-hover-theme w3-text-theme" href="http://balifailwhippets.wordpress.com" target="_blank">Archiv</a></li>
+			<li><a class="w3-hover-theme w3-text-theme" href="links.html">Links</a></li>
+		</ul>
+	</div>
+	<!-- ------------------------------ C U R R E N T  P A T H ----------------------------------- -->
+	<div class="w3-container w3-text-theme w3-theme-l4 w3-border-bottom jf-theme-border w3-small w3-padding-8 jf-round-bottom-8">
+		<div class="w3-left">
+			<a class="w3-hover-theme" href="index.html">Home</a> > Fly over > <a class="w3-hover-theme" href="pedigree.html">Pedigree</a>
+		</div>
+	</div>
+</nav>
+<!-- ----------------------------------------- E N D --------------------------------------------- -->
+<!-- ---------------------------------- N A V I G A T I O N -------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------- C O N T E N T ----------------------------------------- -->
+<!-- --------------------------------------- B E G I N ------------------------------------------- -->
+
+<article class="w3-container w3-center w3-padding-16">
+	<img id="my_image" src="img/pedigree.png" style="max-width:567px;" border="0" usemap="#map" />
+	<map name="map" id="map">
+		<area href="#" shape="rect" coords="1,211,121,260"   onclick="document.getElementById('id01').style.display='block'" title="Fly over of Chump's Runners"/>
+
+		<area href="#" shape="rect" coords="150,91,270,141"  onclick="document.getElementById('id02').style.display='block'" title="Batman Supersonic"/>
+		<area href="#" shape="rect" coords="150,331,270,381" onclick="document.getElementById('id03').style.display='block'" title="Athene of Champ's Runners"/>
+
+		<area href="#" shape="rect" coords="299,31,418,81"   onclick="document.getElementById('id04').style.display='block'" title="Qwerty el Kahal"/>
+		<area href="#" shape="rect" coords="299,151,418,201" onclick="document.getElementById('id05').style.display='block'" title="Ostrya z Olomouckych Rovin"/>
+		<area href="#" shape="rect" coords="299,271,418,321" onclick="document.getElementById('id06').style.display='block'" title="Gordon z Hedvabi"/>
+		<area href="#" shape="rect" coords="299,391,418,441" onclick="document.getElementById('id07').style.display='block'" title="Aiwa Racing Star"/>
+
+		<area href="#" shape="rect" coords="448,2,566,51"    onclick="document.getElementById('id08').style.display='block'" title="Très Grande Vitesse Surprise"/>
+		<area href="#" shape="rect" coords="448,61,566,111"  onclick="document.getElementById('id09').style.display='block'" title="Glapy's Miller Jessie"/>
+		<area href="#" shape="rect" coords="448,121,566,171" onclick="document.getElementById('id10').style.display='block'" title="Venom of Goldenblue"/>
+		<area href="#" shape="rect" coords="448,181,566,231" onclick="document.getElementById('id11').style.display='block'" title="Jiva z Olomouckych Rovin"/>
+		<area href="#" shape="rect" coords="448,241,566,291" onclick="document.getElementById('id12').style.display='block'" title="Black Magic's Bashful Boy"/>
+		<area href="#" shape="rect" coords="448,301,566,351" onclick="document.getElementById('id13').style.display='block'" title="Aythya z Hedvabi"/>
+		<area href="#" shape="rect" coords="448,361,566,411" onclick="document.getElementById('id14').style.display='block'" title="Ontario z Olomouckych Rovin"/>
+		<area href="#" shape="rect" coords="448,421,566,469" onclick="document.getElementById('id15').style.display='block'" title="Double Speed's Smoky"/>
+	</map>
+	<!-- ------- P O U P S ------- -->
+	<div id="id01" class="w3-modal" onclick="document.getElementById('id01').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Fly over of Chump's Runners</h3>
+			</header>
+			<p class="w3-text-theme-d1">Int.Rennchampion<br/>Ö.Champion<br/>Ö.Rennchampion<br/>ÖKWZR-Rennchampion 2002 &amp; 2003<br/>mehrfache S&amp;L Siegerin</p>
+			<a class="w3-hover-theme w3-text-theme" href="http://thewhippetarchives.net/details.php?id=431" target="_blank">
+				<img class="w3-hover-opacity" src="http://thewhippetarchives.net/pics/thumbs/66/th_47ad7f2321275.jpg" style="width:100px;"/>				
+			</a>
+			<p>Black<br/>Austria<br/>2000<br/>&nbsp;</p>
+		</div>
+	</div>
+	<div id="id02" class="w3-modal" onclick="document.getElementById('id02').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Batman Supersonic</h3>
+			</header>
+			<p class="w3-text-theme-d1">Pl.Ch. Pl.Rennch. Int. Rennch.<br/>Pl.Meister 98, 99, 01<br/>H Meister 97<br/>SK Meister 98, 99<br/>Winner Lévrier d'Or Awans 98<br/>Int.D. Derbysieger 98<br/>Finalist EM 98</p>
+			<a href="http://thewhippetarchives.net/details.php?id=433" target="_blank">
+				<img class="w3-hover-opacity" src="http://thewhippetarchives.net/pics/thumbs/anonymous/th_batman supersonic.jpg" style="width:100px;"/>
+			</a>
+			<p>Black<br/>Czech Republic<br/>1996<br/>&nbsp;</p>
+		</div>
+	</div>
+	<div id="id03" class="w3-modal" onclick="document.getElementById('id03').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Athene of Champ's Runners</h3>
+			</header>
+			<p class="w3-text-theme-d1"></p>
+			<a href="http://thewhippetarchives.net/details.php?id=44" target="_blank">
+				<img class="w3-hover-opacity" src="http://thewhippetarchives.net/pics/thumbs/th_4616cac466878.jpg" style="width:100px;"/>
+			</a>
+			<p>Fawn<br/>Austria<br/>1995<br/>&nbsp;</p>
+		</div>
+	</div>
+	<div id="id04" class="w3-modal" onclick="document.getElementById('id04').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Qwerty el Kahal</h3>
+			</header>
+			<p class="w3-text-theme-d1">Best Racing Whippet of Benelux<br/>Finalist of Europe Championship in Hildesheim (D)</p>
+			<a href="http://thewhippetarchives.net/details.php?id=353" target="_blank">
+				<img class="w3-hover-opacity" src="http://thewhippetarchives.net/pics/thumbs/1419/th_4953943226631.jpg" style="width:100px;"/>
+			</a>
+			<p>Black<br/>Belgium<br/>1992<br/>&nbsp;</p>
+		</div>
+	</div>
+	<div id="id05" class="w3-modal" onclick="document.getElementById('id05').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Ostrya z Olomouckych Rovin</h3>
+			</header>
+			<p class="w3-text-theme-d1"></p>
+			<a href="http://thewhippetarchives.net/details.php?id=434" target="_blank">
+				<img class="w3-hover-opacity" src="img/whippet.png" style="width:100px;"/>
+			</a>
+			<p>Black<br/>Czech Republic<br/>1989<br/>&nbsp;</p>
+		</div>
+	</div>
+	<div id="id06" class="w3-modal" onclick="document.getElementById('id06').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Gordon z Hedvabi</h3>
+			</header>
+			<p class="w3-text-theme-d1">A. Ch. S &amp; L,<br/>A. Rennch. 91</p>
+			<a href="http://thewhippetarchives.net/details.php?id=359" target="_blank">
+				<img class="w3-hover-opacity" src="http://thewhippetarchives.net/pics/thumbs/50/th_4788e8ab318a3.jpg" style="width:100px;"/>
+			</a>
+			<p>Red and White<br/>Czech Republic<br/>1989<br/>&nbsp;</p>
+		</div>
+	</div>
+	<div id="id07" class="w3-modal" onclick="document.getElementById('id07').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Aiwa Racing Star</h3>
+			</header>
+			<p class="w3-text-theme-d1"></p>
+			<a href="http://thewhippetarchives.net/details.php?id=360" target="_blank">
+				<img class="w3-hover-opacity" src="img/whippet.png" style="width:100px;"/>
+			</a>
+			<p>Black<br/>Czech Republic<br/>1992<br/>&nbsp;</p>
+		</div>
+	</div>
+	<div id="id08" class="w3-modal" onclick="document.getElementById('id08').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Très Grande Vitesse Surprise</h3>
+			</header>
+			<p class="w3-text-theme-d1">FCI-EM 1991 <br/> NL-Racing Ch 1992 (350m)</p>
+			<a href="http://thewhippetarchives.net/details.php?id=357" target="_blank">
+				<img class="w3-hover-opacity" src="http://thewhippetarchives.net/pics/thumbs/th_4616cacb204ca.jpg" style="width:100px;"/>
+			</a>
+			<p>Black<br/>Netherlands<br/>1988<br/>&nbsp;</p>
+		</div>
+	</div>
+	<div id="id09" class="w3-modal" onclick="document.getElementById('id09').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Glapy's Miller Jessie</h3>
+			</header>
+			<p class="w3-text-theme-d1"></p>
+			<a href="http://thewhippetarchives.net/details.php?id=358" target="_blank">
+				<img class="w3-hover-opacity" src="http://thewhippetarchives.net/pics/thumbs/1910/th_4a8d83cf7e978.jpg" style="width:100px;"/>
+			</a>
+			<p>Fawn and White<br/>Belgium<br/>1985<br/>&nbsp;</p>
+		</div>
+	</div>
+	<div id="id10" class="w3-modal" onclick="document.getElementById('id10').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Venom of Goldenblue</h3>
+			</header>
+			<p class="w3-text-theme-d1"></p>
+			<a href="http://thewhippetarchives.net/details.php?id=365" target="_blank">
+				<img class="w3-hover-opacity" src="http://thewhippetarchives.net/pics/thumbs/th_464150cf0ba23.jpg" style="width:100px;"/>
+			</a>
+			<p>Black and White<br/>Switzerland<br/>1983<br/>&nbsp;</p>
+		</div>
+	</div>
+	<div id="id11" class="w3-modal" onclick="document.getElementById('id11').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Jiva z Olomouckych Rovin</h3>
+			</header>
+			<p class="w3-text-theme-d1"></p>
+			<a href="http://thewhippetarchives.net/details.php?id=435" target="_blank">
+				<img class="w3-hover-opacity" src="img/whippet.png" style="width:100px;"/>
+			</a>
+			<p>Black Brindle<br/>Czech Republic<br/>1985<br/>&nbsp;</p>
+		</div>
+	</div>
+	<div id="id12" class="w3-modal" onclick="document.getElementById('id12').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Black Magic's Bashful Boy</h3>
+			</header>
+			<p class="w3-text-theme-d1">
+				U.I.C.L Europa-Sieger f.Schönheit u.Leistung<br/>
+				Dt Ch f. Schönheit u.Leistung<br/>
+				Dt Ch DWZRV, Dt Ch VDH, Dt Rennch<br/>
+				LRS Rheinland 83, BRS 84
+			</p>
+			<a href="http://thewhippetarchives.net/details.php?id=467" target="_blank">
+				<img class="w3-hover-opacity" src="http://thewhippetarchives.net/pics/thumbs/121/th_492ee1cdab3fb.jpg" style="width:100px;"/>
+			</a>
+			<p>Fawn and White<br/>Germany<br/>1982<br/>&nbsp;</p>
+		</div>
+	</div>
+	<div id="id13" class="w3-modal" onclick="document.getElementById('id13').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Aythya z Hedvabi</h3>
+			</header>
+			<p class="w3-text-theme-d1">CZ CH - Czech Beauty Champion<br/>CZ Ch.</p>
+			<a href="http://thewhippetarchives.net/details.php?id=368" target="_blank">
+				<img class="w3-hover-opacity" src="http://thewhippetarchives.net/pics/thumbs/472/th_47a3851413f6b.jpg" style="width:100px;"/>
+			</a>
+			<p>Fawn and White<br/>Czech Republic<br/>1983<br/>&nbsp;</p>
+		</div>
+	</div>
+	<div id="id14" class="w3-modal" onclick="document.getElementById('id14').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Ontario z Olomouckych Rovin</h3>
+			</header>
+			<p class="w3-text-theme-d1"></p>
+			<a href="http://thewhippetarchives.net/details.php?id=361" target="_blank">
+				<img class="w3-hover-opacity" src="img/whippet.png" style="width:100px;"/>
+			</a>
+			<p>Black<br/>Czech Republic<br/>1989<br/>&nbsp;</p>
+		</div>
+	</div>
+	<div id="id15" class="w3-modal" onclick="document.getElementById('id15').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+				<h3 class="w3-text-theme">Double Speed's Smoky</h3>
+			</header>
+			<p class="w3-text-theme-d1"></p>
+			<a href="http://thewhippetarchives.net/details.php?id=362" target="_blank">
+				<img class="w3-hover-opacity" src="img/whippet.png" style="width:100px;"/>
+			</a>
+			<p>Black<br/>Netherlands<br/>1989<br/>&nbsp;</p>
+		</div>
+	</div>
+</article>
+<!-- ----------------------------------------- E N D --------------------------------------------- -->
+<!-- ------------------------------------- C O N T E N T ----------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------- F O O T E R ------------------------------------------ -->
+<!-- --------------------------------------- B E G I N ------------------------------------------- -->
+<footer class="w3-container">
+    <div class="w3-container w3-navbar w3-theme-dark w3-small w3-padding-8 jf-round-top-8">
+        <div class="w3-left">
+            <a class="w3-hover-theme" href="index.html">Home</a> > Fly over > <a class="w3-hover-theme" href="pedigree.html">Pedigree</a>
+        </div>
+        <div class="w3-right">
+            <a class="w3-hover-theme" href="mailto:balifail@gmx.com"><i class="fa fa-envelope w3-larg"></i> Marta Balinov</a>
+        </div>
+    </div>
+</footer>
+<!-- ----------------------------------------- E N D --------------------------------------------- -->
+<!-- -------------------------------------- F O O T E R ------------------------------------------ -->
+
+<script>
+	imageMapResize();
+</script>
+
+</body>
+</html>

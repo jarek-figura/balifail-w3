@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="de">
+<head>
+	<meta charset="utf-8"/>
+	<title>Balifail Whippets</title>
+	<meta name="author" content="Jarek Figura"/>
+	<meta name="keywords" content="balifail, whippet, whippets, fly over, gallery, pedigree, welpen, windhund, windhunde, hund, hunde, schau, meister, meisterschaft, rennen, zucht, züchter, news, ch., champion, champions, dog, show, shows, sighthound, home-bred, home-breeding, breeder, breeding, balifail, Anook, Ayron, Aretino, Anemona, Aston, Avantgarde, Abyss, Barolo, Batida, Balbina, Corazon, Caro, Cameo, Carlos, Calyx, Cliff, Deimos, Dylan, Domino, Duncan, Devi"/>
+	<meta name="description" content="Willkommen bei Balifail whippets, Fly over of Champ's Runners"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css"/>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/balifail.css"/>
+	<link rel="icon" href="img/favicon.png" type="image/x-icon"/>
+	<script src="js/balifail.js"></script>
+</head>
+
+<body class="w3-theme-l5">
+
+<header class="w3-container">
+	<div class="w3-left w3-hide-small"><img src="img/balifail.png" alt="Drei hunde"/></div>
+	<div class="w3-xlarge w3-text-theme w3-hide-small"><p class="w3-hide-small"></p>BALIFAIL WHIPPETS</div>
+</header>
+
+<!-- --------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------- N A V I G A T I O N -------------------------------------- -->
+<!-- --------------------------------------- B E G I N ------------------------------------------- -->
+<nav class="w3-container w3-text-theme w3-top">
+	<ul class="w3-navbar w3-theme-l2 w3-left-align">
+		<li class="w3-hide-medium w3-hide-large w3-theme-d3 w3-opennav w3-right"><a class="w3-hover-theme" href="javascript:void(0);" onClick="hideSmall()">☰</a></li>
+		<li class="w3-hide-small"><a class="w3-theme-dark w3-hover-theme" href="index.html"><i class="fa fa-home w3-large"></i> Home</a></li>
+		<li class="w3-hide-medium w3-hide-large"><a class="w3-theme-dark w3-hover-theme" href="index.html"><i class="fa fa-home w3-large"></i> BALIFAIL WHIPPETS</a></li>
+		<li class="w3-hide-small"><a class="w3-hover-theme w3-text-theme" href="news.html">News</a></li>
+		<li class="w3-hide-small w3-dropdown-hover w3-hover-theme">
+			<a onClick="dropMenu1()" class="w3-theme-l4 w3-hover-theme w3-text-theme" href="#">Fly over <i class="fa fa-caret-down"></i></a>
+			<div id="drop1" class="w3-dropdown-content w3-theme-l3 w3-card-4 w3-animate-opacity jf-z1">
+				<a class="w3-hover-theme w3-text-theme" href="allgemein.html">Allgemein</a>
+				<a class="w3-hover-theme w3-text-theme" href="pedigree.html">Pedigree</a>
+				<a class="w3-hover-theme w3-text-theme" href="rennen.html">Rennen</a>
+				<a class="w3-hover-theme w3-text-theme w3-theme-l4" href="show.html">Show</a>
+			</div>
+		</li>
+		<li class="w3-hide-small"><a class="w3-hover-theme w3-text-theme" href="http://flickr.com/photos/balifail/sets/" target="_blank">Gallery</a></li>
+		<li class="w3-hide-small w3-dropdown-hover w3-hover-theme">
+			<a onClick="dropMenu2()" class="w3-hover-theme w3-text-theme" href="#">Würfe <i class="fa fa-caret-down"></i></a>
+			<div id="drop2" class="w3-dropdown-content w3-theme-l3 w3-card-4 w3-animate-opacity jf-z1">
+				<a class="w3-hover-theme w3-text-theme" href="awurf.html">A-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="bwurf.html">B-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="cwurf.html">C-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="dwurf.html">D-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="ewurf.html">E-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="fwurf.html">F-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="gwurf.html">G-Wurf</a>
+				<a class="w3-hover-theme w3-text-theme" href="hwurf.html">H-Wurf</a>
+			</div>
+		</li>
+		<li class="w3-hide-small"><a class="w3-hover-theme w3-text-theme" href="http://balifailwhippets.wordpress.com" target="_blank">Archiv</a></li>
+		<li class="w3-hide-small"><a class="w3-hover-theme w3-text-theme" href="links.html">Links</a></li>
+	</ul>
+	<div id="hide" class="w3-hide w3-hide-large w3-hide-medium w3-animate-opacity">
+		<ul class="w3-navbar w3-left-align w3-medium w3-theme-l2">
+			<li><a class="w3-hover-theme w3-text-theme" href="news.html">News</a></li>
+			<li class="w3-dropdown-click w3-hover-theme">
+				<a onClick="dropMenu3()" class="w3-theme-l4 w3-hover-theme w3-text-theme" href="#">Fly over <i class="fa fa-caret-down"></i></a>
+				<div id="drop3" class="w3-dropdown-content w3-theme-l3 w3-card-4 w3-animate-opacity">
+					<a class="w3-hover-theme w3-text-theme" href="allgemein.html">Allgemein</a>
+					<a class="w3-hover-theme w3-text-theme" href="pedigree.html">Pedigree</a>
+					<a class="w3-hover-theme w3-text-theme" href="rennen.html">Rennen</a>
+					<a class="w3-hover-theme w3-text-theme w3-theme-l4" href="show.html">Show</a>
+				</div>
+			</li>
+			<li><a class="w3-hover-theme w3-text-theme" href="http://flickr.com/photos/balifail/sets/" target="_blank">Gallery</a></li>
+			<li class="w3-dropdown-click w3-hover-theme">
+				<a onClick="dropMenu4()" class="w3-hover-theme w3-text-theme" href="#">Würfe <i class="fa fa-caret-down"></i></a>
+				<div id="drop4" class="w3-dropdown-content w3-theme-l3 w3-card-4 w3-animate-opacity">
+					<a class="w3-hover-theme w3-text-theme" href="awurf.html">A-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="bwurf.html">B-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="cwurf.html">C-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="dwurf.html">D-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="ewurf.html">E-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="fwurf.html">F-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="gwurf.html">G-Wurf</a>
+					<a class="w3-hover-theme w3-text-theme" href="hwurf.html">H-Wurf</a>
+				</div>
+			</li>
+			<li><a class="w3-hover-theme w3-text-theme" href="http://balifailwhippets.wordpress.com" target="_blank">Archiv</a></li>
+			<li><a class="w3-hover-theme w3-text-theme" href="links.html">Links</a></li>
+		</ul>
+	</div>
+	<!-- ------------------------------ C U R R E N T  P A T H ----------------------------------- -->
+	<div class="w3-container w3-text-theme w3-theme-l4 w3-border-bottom jf-theme-border w3-small w3-padding-8 jf-round-bottom-8">
+		<div class="w3-left">
+			<a class="w3-hover-theme" href="index.html">Home</a> > Fly over > <a class="w3-hover-theme" href="show.html">Show</a>
+		</div>
+	</div>
+</nav>
+<!-- ----------------------------------------- E N D --------------------------------------------- -->
+<!-- ---------------------------------- N A V I G A T I O N -------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------- C O N T E N T ----------------------------------------- -->
+<!-- --------------------------------------- B E G I N ------------------------------------------- -->
+<article class="w3-container w3-center w3-padding-16">
+    <img src="img/show.jpg" style="max-width:459px;" class="w3-round-large"/>
+    <p></p>
+    <div class="w3-responsive">
+        <table class="w3-table w3-striped">
+            <thead>
+                <tr class="w3-theme-dark">
+                    <th>Datum</th>
+                    <th>Rennverein</th>
+                    <th>Klasse</th>
+                    <th>Bewertung</th>
+                    <th>Richter</th>
+                    <th>Bericht</th>
+                </tr>
+            </thead>
+            <tr>
+                <td colspan="6" class="w3-center w3-theme">2004</td>
+            </tr>
+            <tr>
+                <td>20.06</td>
+                <td>CAC/Namesti&nbsp;(CZ)</td>
+                <td>Ch.</td>
+                <td>V</td>
+                <td>J.&nbsp;L.&nbsp;Grünheid&nbsp;(F)</td>
+                <td>
+                    <span onclick="document.getElementById('id01').style.display='block'" class="w3-navbar"><a class="w3-hover-theme jf-theme-a">Bericht</a></span>
+                    <div id="id01" class="w3-modal" onclick="document.getElementById('id01').style.display='none'">
+                        <div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large">
+                            <header class="w3-container w3-theme w3-text-theme jf-round-top-8">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+                                <h3>Bericht Namesti 20.06.2004</h3>
+                            </header>
+                            <div class="w3-container">
+                                <p>Sehr schöne schwarze Hündin von sehr gutem Typ und Körperbau, vorzüglich in allen Punkten, schöner Kopf, vorzüglicher starker Hals, vorzügliche Oberlinie, sehr gute Brust und Winkelungen, fantastische Seitenbewegung, hinten ein wenig eng.</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="w3-border-bottom w3-theme-border">
+                <td>17.07</td>
+                <td>CAC/Freiburg&nbsp;(D)</td>
+                <td>Gb.</td>
+                <td>V</td>
+                <td>H.&nbsp;Dörr&nbsp;(D)</td>
+                <td>
+                    <span onclick="document.getElementById('id02').style.display='block'" class="w3-navbar"><a class="w3-hover-theme jf-theme-a">Bericht</a></span>
+                    <div id="id02" class="w3-modal" onclick="document.getElementById('id02').style.display='none'">
+                        <div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large">
+                            <header class="w3-container w3-theme w3-text-theme jf-round-top-8">
+                                <span onclick="document.getElementById('id02').style.display='none'" class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+                                <h3>Bericht Freiburg 17.07.2004</h3>
+                            </header>
+                            <div class="w3-container">
+                                <p>4 jährige, schwarze Hündin, gute Größe, vollz. Schere, ansprechender Kopf, gut geschwungener Hals, korrekte Ober- und Unterlinie, gute Winkelungen vorne wie hinten, Gangwerk hinten leicht eng, zeigt sich gut.</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <p></p>
+    <div class="w3-responsive">
+        <table class="w3-table w3-striped">
+            <thead>
+                <tr class="w3-theme-dark">
+                    <th>Datum</th>
+                    <th>Rennverein</th>
+                    <th>Klasse</th>
+                    <th>Bewertung</th>
+                    <th>Richter</th>
+                    <th>Bericht</th>
+                </tr>
+            </thead>
+            <tr>
+                <td colspan="6" class="w3-center w3-theme">2003</td>
+            </tr>
+            <tr>
+				<td colspan="6" onclick="document.getElementById('id10').style.display='block'" class="w3-center w3-theme-l4 w3-navbar"><a class="w3-hover-theme jf-theme-a">2. Platz in der ÖKWZR-Ausstellungschampionwertung 2003</a></td>
+            </tr>
+            <tr>
+                <td>01.03</td>
+                <td>IHA/Graz</td>
+                <td>Gb.</td>
+                <td>V2,&nbsp;res.CAC</td>
+                <td>B.&nbsp;Spoljaric&nbsp;(HR)</td>
+                <td>
+                    <span onclick="document.getElementById('id03').style.display='block'" class="w3-navbar"><a class="w3-hover-theme jf-theme-a">Bericht</a></span>
+                    <div id="id03" class="w3-modal" onclick="document.getElementById('id03').style.display='none'">
+                        <div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large">
+                            <header class="w3-container w3-theme w3-text-theme jf-round-top-8">
+                                <span onclick="document.getElementById('id03').style.display='none'" class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+                                <h3>Bericht Graz 01.03.2003</h3>
+                            </header>
+                            <div class="w3-container">
+                                <p>Gebiss korrekt, kräftiger Unterkiefer, Ohren gut angelegt, obere Körperlinie gut, Hinterhand etwas eng.</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>05.04</td>
+                <td>IHA/Wieselburg</td>
+                <td>Gb.</td>
+                <td>V1,&nbsp;CAC,&nbsp;CACIB</td>
+                <td>L.&nbsp;Erdös&nbsp;(H)</td>
+                <td>
+                    <span onclick="document.getElementById('id04').style.display='block'" class="w3-navbar"><a class="w3-hover-theme jf-theme-a">Bericht</a></span>
+                    <div id="id04" class="w3-modal" onclick="document.getElementById('id04').style.display='none'">
+                        <div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large">
+                            <header class="w3-container w3-theme w3-text-theme jf-round-top-8">
+                                <span onclick="document.getElementById('id04').style.display='none'" class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+                                <h3>Bericht Wieselburg 05.04.2003</h3>
+                            </header>
+                            <div class="w3-container">
+                                <p>Sehr elegante und sehr gut bemuskelte Hündin, schöner, typischer Kopf, schöne Rosenohren, eleganter Hals, korrekte Winkelungen, korrekte Vorder- und Hinterhand, gute Bewegung.</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>21.06</td>
+                <td>Klub/Untersiebenbrunn</td>
+                <td>Gb.</td>
+                <td>V1,&nbsp;CAC</td>
+                <td>J.&nbsp;L.&nbsp;Grunheid&nbsp;(F)</td>
+                <td>
+                    <span onclick="document.getElementById('id05').style.display='block'" class="w3-navbar"><a class="w3-hover-theme jf-theme-a">Bericht</a></span>
+                    <div id="id05" class="w3-modal" onclick="document.getElementById('id05').style.display='none'">
+                        <div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large">
+                            <header class="w3-container w3-theme w3-text-theme jf-round-top-8">
+                                <span onclick="document.getElementById('id05').style.display='none'" class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+                                <h3>Bericht Untersiebenbrunn 21.06.2003</h3>
+                            </header>
+                            <div class="w3-container">
+                                <p>3 years old, black, excellent colour and coatcondition, nice head, eye expression, excellent ears, neck, shoulderangulation and chest, excellent wide moves.</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>05.07</td>
+                <td>Klub/Krenglbach</td>
+                <td>Gb.</td>
+                <td>V1,&nbsp;CAC</td>
+                <td>Herr&nbsp;Deheas&nbsp;(B)</td>
+                <td>
+                    <span onclick="document.getElementById('id06').style.display='block'" class="w3-navbar"><a class="w3-hover-theme jf-theme-a">Bericht</a></span>
+                    <div id="id06" class="w3-modal" onclick="document.getElementById('id06').style.display='none'">
+                        <div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large">
+                            <header class="w3-container w3-theme w3-text-theme jf-round-top-8">
+                                <span onclick="document.getElementById('id06').style.display='none'" class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+                                <h3>Bericht Krenglbach 05.07.2003</h3>
+                            </header>
+                            <div class="w3-container">
+                                <p>Sehr schöner femininer Kopf, exzellenter Hals, sehr gute Rückenlinie, sehr gute Kruppe, sehr gute Winkelung der Vorder- und Hinterhand, schönes ausgreifendes Gangwerk, in der Hinterhand etwas zu eng.</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>08.11</td>
+                <td>IHA/Tulln</td>
+                <td>Gb.</td>
+                <td>V1,&nbsp;CAC</td>
+                <td>J.&nbsp;Staniszewska&nbsp;-&nbsp;Borkowska&nbsp;(PL)</td>
+                <td>
+                    <span onclick="document.getElementById('id07').style.display='block'" class="w3-navbar"><a class="w3-hover-theme jf-theme-a">Bericht</a></span>
+                    <div id="id07" class="w3-modal" onclick="document.getElementById('id07').style.display='none'">
+                        <div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large">
+                            <header class="w3-container w3-theme w3-text-theme jf-round-top-8">
+                                <span onclick="document.getElementById('id07').style.display='none'" class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+                                <h3>Bericht Tulln 08.11.2003</h3>
+                            </header>
+                            <div class="w3-container">
+                                <p>Black bitch with a lovely head, proper neck, slightly long body, good angulation, strong chest.</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="w3-border-bottom w3-theme-border">
+                <td>06.12</td>
+                <td>IHA/Wels</td>
+                <td>Gb.</td>
+                <td>V1,&nbsp;CAC</td>
+                <td>Dr.&nbsp;M.&nbsp;Pavlaskova&nbsp;(SK)</td>
+                <td>
+                    <span onclick="document.getElementById('id08').style.display='block'" class="w3-navbar"><a class="w3-hover-theme jf-theme-a">Bericht</a></span>
+                    <div id="id08" class="w3-modal" onclick="document.getElementById('id08').style.display='none'">
+                        <div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large">
+                            <header class="w3-container w3-theme w3-text-theme jf-round-top-8">
+                                <span onclick="document.getElementById('id08').style.display='none'" class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+                                <h3>Bericht Wels 06.12.2003</h3>
+                            </header>
+                            <div class="w3-container">
+                                <p>3 jährige, schwarze Hündin vom Renntyp, ideale Größe, gute Proportionen, vorzüglich bemuskelt und behaart, typvolle Bewegungen, nettes Wesen.</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <p></p>
+    <div class="w3-responsive">
+        <table class="w3-table">
+            <thead>
+                <tr class="w3-theme-dark">
+                    <th>Datum</th>
+                    <th>Rennverein</th>
+                    <th>Klasse</th>
+                    <th>Bewertung</th>
+                    <th>Richter</th>
+                    <th>Bericht</th>
+                </tr>
+            </thead>
+            <tr>
+                <td colspan="6" class="w3-center w3-theme">2002</td>
+            </tr>
+            <tr class="w3-border-bottom w3-theme-border">
+                <td>03.08</td>
+                <td>Klub/Marchegg</td>
+                <td>Gb.</td>
+                <td>V1,&nbsp;CAC</td>
+                <td>Z.&nbsp;Kraljic&nbsp;(HR)</td>
+                <td>
+					<span onclick="document.getElementById('id09').style.display='block'" class="w3-navbar"><a class="w3-hover-theme jf-theme-a">Bericht</a></span>
+                    <div id="id09" class="w3-modal" onclick="document.getElementById('id09').style.display='none'">
+                        <div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large">
+                            <header class="w3-container w3-theme w3-text-theme jf-round-top-8">
+                                <span onclick="document.getElementById('id09').style.display='none'" class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+                                <h3>Bericht Marchegg 03.08.2002</h3>
+                            </header>
+                            <div class="w3-container">
+                                <p>Hündin gut geformt, korrekter Kopf, gute Rücken- und untere Linie, korrekt in der Bewegung.</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+	<div id="id10" class="w3-modal" onclick="document.getElementById('id10').style.display='none'">
+		<div class="w3-modal-content w3-animate-zoom w3-card-8 w3-round-large w3-center" style="max-width:400px;">
+			<header class="w3-container w3-theme jf-round-top-8">
+				<span onclick="document.getElementById('id10').style.display='none'" class="w3-closebtn w3-hover-theme w3-text-theme w3-xxlarge">&times;</span>
+			</header>
+			<img src="img/show_1.jpg" class="jf-round-bottom-8"/>
+		</div>
+	</div>
+</article>
+<!-- ----------------------------------------- E N D --------------------------------------------- -->
+<!-- ------------------------------------- C O N T E N T ----------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------- F O O T E R ------------------------------------------ -->
+<!-- --------------------------------------- B E G I N ------------------------------------------- -->
+<footer class="w3-container">
+    <div class="w3-container w3-navbar w3-theme-dark w3-small w3-padding-8 jf-round-top-8">
+        <div class="w3-left">
+            <a class="w3-hover-theme" href="index.html">Home</a> > Fly over > <a class="w3-hover-theme" href="show.html">Show</a>
+        </div>
+        <div class="w3-right">
+            <a class="w3-hover-theme" href="mailto:balifail@gmx.com"><i class="fa fa-envelope w3-larg"></i> Marta Balinov</a>
+        </div>
+    </div>
+</footer>
+<!-- ----------------------------------------- E N D --------------------------------------------- -->
+<!-- -------------------------------------- F O O T E R ------------------------------------------ -->
+
+</body>
+</html>
