@@ -5,8 +5,8 @@ header img { max-height: 80px; }
 .w3-navbar li a { padding-left: 11px; padding-right: 13px; }
 article img { width: 100%; max-width: 500px; }
 .jf-z1 { z-index: 1; }
-.jf-round-top-8 { border-radius: 8px 8px 0 0; box-shadow: 1px -2px 8px 0 rgba(0, 0, 0, 0.4); }
-.jf-round-bottom-8 { border-radius: 0 0 8px 8px; box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.4); }
+.jf-round-top-8 { border-radius: 8px 8px 0 0; }
+.jf-round-bottom-8 { border-radius: 0 0 8px 8px; }
 .jf-padding-top-16 { padding-top: 16px; }
 .jf-padding-bottom-16 { padding-bottom: 16px; }
 a:hover { cursor: pointer; }
