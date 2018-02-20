@@ -25,16 +25,14 @@ a:hover { cursor: pointer; }
 .w3-theme-d3 {color:#fff !important; background-color:#ce9613 !important}
 .w3-theme-d4 {color:#fff !important; background-color:#b08010 !important}
 .w3-theme-d5 {color:#fff !important; background-color:#936b0e !important}
-
-.w3-theme-light {color:#000 !important; background-color:#fefbf5 !important}
 .w3-theme-dark {color:#fff !important; background-color:#936b0e !important}
 .w3-theme-action {color:#fff !important; background-color:#936b0e !important}
-
+.w3-theme-light {color:#000 !important; background-color:#fefbf5 !important}
 .w3-theme {color:#000 !important; background-color:#efc050 !important}
+.w3-hover-theme:hover {color:#000 !important; background-color:#efc050 !important}
 .w3-text-theme {color:#936b0e !important}
 .w3-text-theme-d1 {color:#ec3535 !important}
 .w3-theme-border {border-color:rgba(149, 109, 14, 0.3) !important}
-.w3-hover-theme:hover {color:#000 !important; background-color:#efc050 !important}
-
+/*-------------------------------------------------------------------------*/
 .jf-theme-a {color:#c31515 !important}
 .jf-theme-border {border-color:#f5d997 !important}
