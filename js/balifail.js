@@ -7,6 +7,7 @@ function hideSmall() {
 		x.className = x.className.replace(" w3-show", "");
 	}
 }
+
 function dropMenu1() {
 	var x = document.getElementById("drop1");
 	if (x.className.indexOf("w3-show") === -1) {
@@ -15,6 +16,7 @@ function dropMenu1() {
 		x.className = x.className.replace(" w3-show", "");
 	}
 }
+
 function dropMenu2() {
 	var x = document.getElementById("drop2");
 	if (x.className.indexOf("w3-show") === -1) {
@@ -23,6 +25,7 @@ function dropMenu2() {
 		x.className = x.className.replace(" w3-show", "");
 	}
 }
+
 function dropMenu3() {
 	var x = document.getElementById("drop3");
 	if (x.className.indexOf("w3-show") === -1) {
@@ -31,6 +34,7 @@ function dropMenu3() {
 		x.className = x.className.replace(" w3-show", "");
 	}
 }
+
 function dropMenu4() {
 	var x = document.getElementById("drop4");
 	if (x.className.indexOf("w3-show") === -1) {

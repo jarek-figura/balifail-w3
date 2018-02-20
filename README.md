@@ -6,4 +6,5 @@ No hard coding necessary, just a few lines of js.
 
 Originally created in Brackets editor, now imported to WebStorm IDE.
 
-If accepted it will serve as a template for the whole site.
+If accepted it will serve as a template for the new Balifail Whippets site
+and will replace the old one: [Balifail Whippets](http://members.chello.at/balifail/).
